@@ -1,0 +1,6 @@
+N = int(input("Enter value of N: "))
+sum = 0
+for i in range(1, N+1):
+    sum += (i*i)
+
+print("Sum of squares = ", sum)
