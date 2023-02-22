@@ -1,5 +1,4 @@
-myinput = input("message: ")
-mylist = list(myinput)
-for i in range(len(mylist)):
-    mylist[i] = chr(ord(mylist[i])+1)
-print(i+1)
+word = input("enter the word: ")
+j=[ord(x) for x in word]
+print(j)
+hello
